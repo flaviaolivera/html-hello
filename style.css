@@ -1,0 +1,69 @@
+.header {
+    display:flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.nombre {
+    width:40vw;
+    height:4vw;
+    text-align: justify;
+    background-color: white;
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+.body {
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+}
+.publicacion {
+    background-color: white;
+    font-family: sans-serif;
+    width: 40vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top:6vh;
+}
+.tituloyfecha {
+    padding: 2vh;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo {
+    
+    color: black;
+}
+.fecha {
+    
+    color: grey;
+}
+.foto {
+    width:40vw;
+    display: flex;
+    align-items: center;
+
+}
+.foto img {
+    width: 100%;
+    object-fit: cover; 
+}
+.piedefoto {
+    padding-top:2vh;
+    width: 40vw;
+    border-top: 1px solid grey;
+    background-color: white;
+ 
+}
+.textofoto {
+    text-align: left;
+    font-size: 1.5vw;
+    padding-left:2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vw;
+}
